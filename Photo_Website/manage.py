@@ -5,7 +5,7 @@ import sys
 
 
 def main():
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'PhotoWebsite.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Photo_Website.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
